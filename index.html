@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+    <nav id="main-navbar" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MOVIEHUB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="movies.html">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ratings.html">Ratings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trailers.html">Trailers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                    <li class="nav-item" id="authNavItem"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <button id="themeToggle" class="btn btn-sm btn-outline-red" type="button">Light Mode</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section class="main-box text-center">
+            <div class="container">
+                <h1 class="main-head">Your Gateway to Cinema</h1>
+                <p class="main-text">Explore the best movies, ratings, and exclusive trailers in one place.</p>
+                <a href="movies.html" class="btn btn-red btn-lg mt-3">Browse Catalog</a>
+            </div>
+        </section>
+
+        <section class="pb-5 pt-5 container text-center">
+            <h2 class="mb-4">Welcome to MovieHub</h2>
+            <p class="lead text-secondary">We provide high-quality information for movie enthusiasts. From indie gems to Hollywood blockbusters, find everything you need to plan your next movie night.</p>
+        </section>
+
+        <section class="pb-5 pt-4 container" id="faq-section">
+            <h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+            <div class="faq-container mx-auto" style="max-width: 800px;">
+                
+                <div class="faq-item mb-3">
+                    <div class="faq-question d-flex justify-content-between align-items-center p-3">
+                        <h5 class="mb-0">1. Is MovieHub free to use?</h5>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer p-3" style="display: none;">
+                        <p class="mb-0 text-secondary">Yes! MovieHub is completely free for browsing our movie catalog, watching official trailers, reading reviews, and managing your personal movie ratings.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item mb-3">
+                    <div class="faq-question d-flex justify-content-between align-items-center p-3">
+                        <h5 class="mb-0">2. Can I watch full movies directly on MovieHub?</h5>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer p-3" style="display: none;">
+                        <p class="mb-0 text-secondary">No, MovieHub is a movie discovery, rating, and review platform. We provide detailed film descriptions, user ratings, and official YouTube trailers to help you choose what to watch next.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item mb-3">
+                    <div class="faq-question d-flex justify-content-between align-items-center p-3">
+                        <h5 class="mb-0">3. How do I add or edit movies in the Ratings table?</h5>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer p-3" style="display: none;">
+                        <p class="mb-0 text-secondary">Go to the <strong>Ratings</strong> page in the navigation menu and click the <strong>"+ Add Movie"</strong> button. You can enter a title, genre, and rating (0–10), as well as edit or delete existing entries at any time.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item mb-3">
+                    <div class="faq-question d-flex justify-content-between align-items-center p-3">
+                        <h5 class="mb-0">4. Why do I need to create an account on MovieHub?</h5>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer p-3" style="display: none;">
+                        <p class="mb-0 text-secondary">Creating an account personalizes your experience on MovieHub, keeping you signed in across sessions so you can participate in the community and share your movie opinions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item mb-3">
+                    <div class="faq-question d-flex justify-content-between align-items-center p-3">
+                        <h5 class="mb-0">5. How often is the movie catalog updated?</h5>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer p-3" style="display: none;">
+                        <p class="mb-0 text-secondary">We regularly update our catalog and trailers section with both timeless classics and trending releases across Action, Comedy, Drama, Horror, and Romance genres.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="pb-4 pt-4">
+        <div class="container text-center">
+            <p>&copy; 2026 MovieHub.</p>
+            <p class="small mt-2 mb-0">Developed with the assistance of AI tools for styling.</p>
+            <div><a href="#" class="mx-2">GitHub</a><a href="#" class="mx-2">Instagram</a></div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
