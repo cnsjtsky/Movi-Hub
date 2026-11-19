@@ -4,7 +4,7 @@
 
 **Group:** IT-2504
 
-**Group Members:** Madina Kairbayeva, Tamerlan Iskakov, Abdyssadykov Daniyar
+Abdyssadykov Daniyar
 
 **GitHub Repository:** https://github.com/mkairbaeva664-collab/Movie_website
 
@@ -67,9 +67,8 @@ MovieHub is a responsive, multi-page web application designed for movie enthusia
 <img width="1016" height="718" alt="image" src="https://github.com/user-attachments/assets/839a764e-47e2-4e61-849a-b6b65907228f" />
 <img width="508" height="685" alt="image" src="https://github.com/user-attachments/assets/80819876-3cb8-42c8-8d90-9a66ed930110" />
 
-## Group Members & Individual Contributions
+## Group Individual Contributions
 
-**1. Tamerlan Iskakov**
 * **JavaScript – Light/Dark Theme Toggle & Authentication (`localStorage`):**
   * Engineered the site-wide Light/Dark theme switcher using CSS custom properties and `localStorage` persistence across all 6 pages.
   * Implemented the tabbed Sign-In / Registration authentication flow with input validation, session storage (`movieHubUser`), dynamic navbar state rendering, and Sign-Out functionality.
@@ -79,7 +78,6 @@ MovieHub is a responsive, multi-page web application designed for movie enthusia
 * **Dynamic Search & Filter:**
   * Developed real-time, case-insensitive title search and multi-genre filtering on the Catalog and Trailers pages.
 
-**2. Madina Kairbayeva**
 * **HTML5 & CSS3 Architecture & Responsive Design:**
   * Designed and structured the semantic HTML5 layout across all 6 pages (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
   * Styled the consistent visual theme, responsive layouts (Flexbox, Grid, Bootstrap 5, and media queries for desktop, tablet, and mobile), and Light/Dark theme color palettes in `style.css`.
@@ -90,7 +88,6 @@ MovieHub is a responsive, multi-page web application designed for movie enthusia
 * **Final Project Report:**
   * Compiled and formatted the group project report, including objectives, architecture descriptions, screenshots, and contribution documentation.
 
-**3. Abdyssadykov Daniyar**
 * **Dynamic Table with CRUD Operations:**
   * Built a comprehensive JavaScript-driven data table for movie management on `ratings.html`.
   * **Create:** Enabled the insertion of new movie entries via a Bootstrap modal form.
